@@ -32,3 +32,12 @@ h3 {
     height: 60px;
     width: 100px;
 }
+
+.red {
+    color: red;
+    font-weight: bolder;
+}
+
+a {
+    text-align: center;
+}
