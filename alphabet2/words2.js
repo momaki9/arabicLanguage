@@ -127,5 +127,53 @@ const words = [
     {
         word: "بِخَير",
         def: "well (or good)"
+    },
+    {
+        word: "متى",
+        def: "When ..?"
+    },
+    {
+        word: "كيف",
+        def: "How ..?"
+    },
+    {
+        word: "أسَد",
+        def: "Lion"
+    },
+    {
+        word: "تُفّاحَة",
+        def: "Apple"
+    },
+    {
+        word: "بَيت",
+        def: "House"
+    },
+    {
+        word: "كُرْسي",
+        def: "Chair"
+    },
+    {
+        word: "طبيب",
+        def: "Doctor (male)"
+    },
+    {
+        word: "الجَميع",
+        def: "Everyone"
+    },
+    {
+        word: "هُوَ",
+        def: "He (is) ..."
+    },
+    {
+        word: "هِيَ",
+        def: "She (is) ..."
+    },
+    {
+        word: "إيمان",
+        def: "Faith"
+    },
+    {
+        word: "صَبُر",
+        def: "Patience"
     }
 ];

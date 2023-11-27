@@ -1,0 +1,1 @@
+// For higher levels, show english sentences and have Arabic words to select from to translate to arabic
