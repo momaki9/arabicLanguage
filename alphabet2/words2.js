@@ -175,5 +175,9 @@ const words = [
     {
         word: "صَبُر",
         def: "Patience"
+    },
+    {
+        word: "مَعَ",
+        def: "with"
     }
 ];
