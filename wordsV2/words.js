@@ -12,7 +12,7 @@ const words = [
         def: "My name"
     },
     {
-        word: "الشَّمسْ",
+        word: "الشَمسْ",
         def: "The sun"
     },
     {

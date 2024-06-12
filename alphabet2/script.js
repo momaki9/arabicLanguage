@@ -9,13 +9,23 @@ const randomIndFromArray = function (arr) {
     return value;
 };
 
+const alphabet = ["ا", "إ", "أ", "ب", "ت", "ث", "ج", "ح", "خ", "د", "ذ", "ر", "ز", "س", "ش", "ص", "ض", "ط", "ظ", "ع", "غ", "ف", "ق", "ك", "ل", "م", "ن", "هـ", "ه", "و", "ي"];
 
 const highlightRandomLetter = function (str) {
     const split = str.split("");
     const randomIndex = randomIndFromArray(split);
-    split.splice(randomIndex, 1, `<span class='red'>${str[randomIndex]}</span>`);
-    const output = split.join("");
-    return output;
+    if (alphabet.includes(str[randomIndex])) {
+        split.splice(randomIndex, 1, `<span class='red'>${str[randomIndex]}</span>`);
+        console.log(split)
+        const output = split.join("");
+        return output;
+    } else {
+        console.log(split)
+        var prevIndex = randomIndex - 1;
+        split.splice(prevIndex, 1, `<span class='red'>${str[prevIndex]}</span>`);
+        const output = split.join("");
+        return output;
+    }
 };
 
 const instance = randomFromArray(words);
