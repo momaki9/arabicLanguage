@@ -1,6 +1,6 @@
 const words = [
     {
-        word: "بَاحُ الخَيْرِ",
+        word: "صَبَاحُ الخَيْرِ",
         def: "Good Morning"
     },
     {
