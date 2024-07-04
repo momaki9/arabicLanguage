@@ -5,7 +5,7 @@ const words = [
     },
     {
         word: "كَتَبَ",
-        def: "He/She wrote (past tense)"
+        def: "He wrote"
     },
     {
         word: "إسمي",
