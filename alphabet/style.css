@@ -41,3 +41,10 @@ h3 {
 a {
     text-align: center;
 }
+
+#meaning {
+    color: rgb(36, 82, 110);
+    font-size: xx-large;
+    margin: 125px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
