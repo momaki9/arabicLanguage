@@ -28,6 +28,7 @@ const daysObj = [
         meaning: "Friday"
     }
 ];
+
 let letter = daysObj[0].day;
 
 const letterElm = document.getElementById("letter");
@@ -52,6 +53,5 @@ btnElm.addEventListener("click", () => {
 });
 
 document.getElementById("showMeaning").addEventListener("click", ()=>{
-    meaningElm.textContent = daysObj[value].meaning;;
-    console.log(value)
-})
+    meaningElm.textContent = daysObj[value].meaning;
+});

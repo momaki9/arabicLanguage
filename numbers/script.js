@@ -1,30 +1,110 @@
 const nums = [
     {
+        num: "واحد",
+        def: "One (1)"
+    },
+    {
+        num: "اثنين",
+        def: "Two (2)"
+    },
+    {
+        num: "ثلاثة",
+        def: "Three (3)"
+    },
+    {
         num: "أربَعه",
-        def: "four (4)"
+        def: "Four (4)"
+    },
+    {
+        num: "خمسة",
+        def: "Five (5)"
     },
     {
         num: "سِتّه",
-        def: "six (6)"
+        def: "Six (6)"
     },
     {
         num: "سَبعه",
-        def: "seven (7)"
+        def: "Seven (7)"
+    },
+    {
+        num: "ثمانية",
+        def: "Eight (8)"
     },
     {
         num: "تِسعه",
-        def: "nine (9)"
+        def: "Nine (9)"
     },
     {
         num: "عَشره",
-        def: "ten (10)"
+        def: "Ten (10)"
+    },
+    {
+        num: "عشرون",
+        def: "Twenty (20)"
+    },
+    {
+        num: "ثلاثون",
+        def: "Thirty (30)"
     },
     {
         num: "أربَعون",
-        def: "forty (40)"
+        def: "Forty (40)"
+    },
+    {
+        num: "خمسون",
+        def: "Fifty (50)"
+    },
+    {
+        num: "ستون",
+        def: "Sixty (60)"
+    },
+    {
+        num: "سبعون",
+        def: "Seventy (70)"
+    },
+    {
+        num: "ثمانون",
+        def: "Eighty (80)"
+    },
+    {
+        num: "تسعون",
+        def: "Ninty (90)"
+    },
+    {
+        num: "مائة",
+        def: "Hundred (100)"
     }
 ];
 
+let number = nums[0].num;
+
+const numberElm = document.getElementById("number");
+
+numberElm.textContent = number;
+
+const btnElm = document.getElementById("btn");
+
+const meaningElm = document.getElementById("meaning");
+let value = Number(btnElm.getAttribute("data"));
+
+btnElm.addEventListener("click", () => {
+    meaningElm.textContent = "";
+
+    if (value === nums.length - 1) {
+        value = 0
+    } else {
+        value = value += 1
+    }
+    btnElm.setAttribute("data", value);
+    numberElm.textContent = nums[value].num;
+});
+
+document.getElementById("showMeaning").addEventListener("click", () => {
+    meaningElm.textContent = nums[value].def;
+});
+
+/* older code
 const chooseOneNum = function (arr) {
     const value = Math.floor(Math.random() * arr.length);
     return arr[value];
@@ -46,3 +126,5 @@ btn1.addEventListener("click", function(){
 btn2.addEventListener("click", function(){
     window.location.reload();
 });
+
+*/
