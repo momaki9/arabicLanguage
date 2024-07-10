@@ -84,17 +84,47 @@ const numberElm = document.getElementById("number");
 numberElm.textContent = number;
 
 const btnElm = document.getElementById("btn");
+const backBtn = document.getElementById("backBtn");
 
 const meaningElm = document.getElementById("meaning");
 let value = Number(btnElm.getAttribute("data"));
 
-btnElm.addEventListener("click", () => {
-    meaningElm.textContent = "";
+if ((value > 0 ) && (value <= nums.length-1)) {
+    backBtn.disabled = false;
+    // backBtn.removeAttribute("class", "hidden");
+} else if (value === 0) {
+    // backBtn.setAttribute("class", "hidden");
+    backBtn.disabled = true;
+};
 
+btnElm.addEventListener("click", () => {
+    // console.log("disable next?", value)
+    if (value >= 0) {
+        backBtn.disabled = false;
+    }
+    meaningElm.textContent = "";
     if (value === nums.length - 1) {
-        value = 0
+        btnElm.disabled = true;
+        // value = 0
     } else {
-        value = value += 1
+        value = value += 1;
+        if (value === nums.length -1) {
+            btnElm.disabled = true;
+        }
+    }
+    btnElm.setAttribute("data", value);
+    numberElm.textContent = nums[value].num;
+});
+
+backBtn.addEventListener("click", () => {
+    if (value <= 1) {
+        backBtn.disabled = true;
+        // backBtn.setAttribute("class", "hidden");
+    }
+    value--;
+    if (value <= nums.length - 2) {
+        // console.log("disable next? - here", value)
+        btnElm.disabled = false;
     }
     btnElm.setAttribute("data", value);
     numberElm.textContent = nums[value].num;

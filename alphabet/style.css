@@ -24,15 +24,6 @@ h3 {
     text-align: center;
 }
 
-#btn1,
-#btn2 {
-    margin-left: 46%;
-    margin-bottom: 1%;
-    padding: 1%;
-    height: 100px;
-    width: 120px;
-}
-
 .red {
     color: red;
     font-weight: bolder;
@@ -42,9 +33,13 @@ a {
     text-align: center;
 }
 
-#meaning {
+#meaning, #def {
     color: rgb(36, 82, 110);
     font-size: xx-large;
     margin: 125px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hidden {
+    visibility: hidden;
 }
