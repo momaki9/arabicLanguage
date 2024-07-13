@@ -58,6 +58,7 @@ nextBtn.addEventListener("click", () => {
 });
 
 prevBtn.addEventListener("click", () => {
+    defElm.textContent = "";
     if (value <= 1) {
         prevBtn.disabled = true;
         // backBtn.setAttribute("class", "hidden");

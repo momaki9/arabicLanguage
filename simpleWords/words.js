@@ -9,7 +9,7 @@ const words = [
     },
     {
         word: "إسمي",
-        def: "My name"
+        def: "My name (is) ..."
     },
     {
         word: "الشَّمسْ",
@@ -38,10 +38,6 @@ const words = [
     {
         word: "اين",
         def: "Where ..?"
-    },
-    {
-        word: "اسمي",
-        def: "My name (is) ..."
     },
     {
         word: "اسمهُ",

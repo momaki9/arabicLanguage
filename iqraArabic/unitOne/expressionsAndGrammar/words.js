@@ -42,6 +42,38 @@ const words = [
     {
         word: "بَارَكَ اللهُ فِيهمْ",
         def: "May Allah bless them!"
+    },
+    {
+        word: "مَساءُ الخير",
+        def: "Good Evening"
+    },
+    {
+        word: "مَساءُ النُّور",
+        def: "Response to Good Evening"
+    },
+    {
+        word: "اهلاً بِكَ",
+        def: "Response to Greetings (singular)"
+    },
+    {
+        word: "جَزاكَ اللهُ خَيراً",
+        def: "May Allah reward you"
+    },
+    {
+        word: "تِصبَح على خَير",
+        def: "Goodnight!"
+    },
+    {
+        word: "تِصبَح على نُور",
+        def: "Response to Goodnight"
+    },
+    {
+        word: "وَداعاً",
+        def: "Goodbye!"
+    },
+    {
+        word: "إلى أللِقاء",
+        def: "Untill Next Time!"
     }
 ];
 
