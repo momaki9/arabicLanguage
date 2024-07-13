@@ -1,16 +1,56 @@
+// variables and constants
 const wordElm = document.getElementById("word");
 const defElm = document.getElementById("def");
-const btn1 = document.getElementById("btn1");
-const btn2 = document.getElementById("btn2");
+const prevBtn = document.getElementById("btn0");
+const meaningBtn = document.getElementById("btn1");
+const nextBtn = document.getElementById("btn2");
 
-const chosenWord = chooseOneWord(words);
+// TODO: replace myArray name with name of obj array;
 
-wordElm.textContent = chosenWord.word;
+const shuffledArr = shuffleArray(words);
 
-btn1.addEventListener("click", function(){
-    defElm.textContent = chosenWord.def;
+let selectedElm = shuffledArr[0];
+
+wordElm.textContent = selectedElm.word;
+
+let value = Number(nextBtn.getAttribute("data"));
+
+if ((value > 0 ) && (value <= words.length-1)) {
+    prevBtn.disabled = false;
+} else if (value === 0) {
+    prevBtn.disabled = true;
+};
+
+nextBtn.addEventListener("click", () => {
+    if (value >= 0) {
+        prevBtn.disabled = false;
+    }
+    defElm.textContent = "";
+    if (value === words.length - 1) {
+        nextBtn.disabled = true;
+    } else {
+        value = value += 1;
+        if (value === words.length -1) {
+            nextBtn.disabled = true;
+        }
+    }
+    nextBtn.setAttribute("data", value);
+    wordElm.textContent = shuffledArr[value].word;
 });
 
-btn2.addEventListener("click", function(){
-    window.location.reload();
+prevBtn.addEventListener("click", () => {
+    defElm.textContent = "";
+    if (value <= 1) {
+        prevBtn.disabled = true;
+    }
+    value--;
+    if (value <= words.length - 2) {
+        nextBtn.disabled = false;
+    }
+    nextBtn.setAttribute("data", value);
+    wordElm.textContent = shuffledArr[value].word;
+});
+
+meaningBtn.addEventListener("click", () => {
+    defElm.textContent = shuffledArr[value].def;
 });
