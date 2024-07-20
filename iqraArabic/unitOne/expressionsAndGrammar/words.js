@@ -73,7 +73,7 @@ const words = [
     },
     {
         word: "إلى أللِقاء",
-        def: "Untill Next Time!"
+        def: "Until Next Time!"
     }
 ];
 
