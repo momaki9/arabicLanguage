@@ -1,180 +1,101 @@
 const words = [
     {
-        word: "قُل",
-        def: "Say (command verb)"
+        word: "النَّاس",
+        def: "Humankind"
     },
     {
-        word: "كَتَبَ",
-        def: "He wrote"
+        word: "الَّذي",
+        def: "The one who"
     },
     {
-        word: "إسمي",
-        def: "My name"
+        word: "صَدِرْ",
+        def: "Chest (body part)"
     },
     {
-        word: "الشَمسْ",
-        def: "The sun"
+        word: "قالَ",
+        def: "He said"
     },
     {
-        word: "القَمَرْ",
-        def: "The moon"
+        word: "خَلَقَ",
+        def: "He created"
     },
     {
-        word: "صلاة",
-        def: "Prayer"
+        word: "قَالُواْ",
+        def: "They said"
     },
     {
-        word: "كم",
-        def: "How many ..?"
+        word: "كَلِمَة",
+        def: "A word"
     },
     {
-        word: "انا",
-        def: "I (am)"
+        word: "كَذِبَ",
+        def: "He lied"
     },
     {
-        word: "انت",
-        def: "You"
+        word: "طَعَام",
+        def: "Food"
     },
     {
-        word: "اين",
-        def: "Where ..?"
+        word: "مَّسجِد",
+        def: "A place of worship"
     },
     {
-        word: "اسمي",
-        def: "My name (is) ..."
+        word: "كانَ",
+        def: "Was"
     },
     {
-        word: "اسمهُ",
-        def: "His name (is) ..."
+        word: "يَدي",
+        def: "My hand"
     },
     {
-        word: "اسمُها",
-        def: "Her name (is) ..."
+        word: "نار",
+        def: "Fire"
     },
     {
-        word: "عمري",
-        def: "My age (is) ..."
+        word: "نَزَلَ",
+        def: "To descend"
     },
     {
-        word: "عُمرُها",
-        def: "Her age (is) ..."
+        word: "الكِتاب",
+        def: "The book"
     },
     {
-        word: "عُمرُهُ",
-        def: "His age (is) ..."
+        word: "المُؤمَنين",
+        def: "The believers (male plural)"
     },
     {
-        word: "عُمرُكَ",
-        def: "Your age (is) ... (male)"
+        word: "المُؤمَنين",
+        def: "The believers (female plural)"
     },
     {
-        word: "بلدي",
-        def: "My country (is) ..."
+        word: "يَعمَل",
+        def: "He does"
     },
     {
-        word: "حالكِ",
-        def: "your Well-being (female)"
+        word: "الصَّالِحَات",
+        def: "The good (righteous) deeds"
     },
     {
-        word: "حالُكَ",
-        def: "your Well-being (male)"
+        word: "نَّحنُ",
+        def: "We"
     },
     {
-        word: "حالُهُ",
-        def: "his Well-being"
+        word: "قَلب",
+        def: "Heart (organ)"
     },
     {
-        word: "مَصر",
-        def: "Egypt"
+        word: "السَّمَاوات",
+        def: "The heavens"
     },
     {
-        word: "امريكا",
-        def: "America (USA)"
+        word: "الأرض",
+        def: "The earth"
     },
     {
-        word: "اليَمَن",
-        def: "Yemen"
-    },
-    {
-        word: "باكِستان",
-        def: "Pakistan"
-    },
-    {
-        word: "سَنَه",
-        def: "year"
-    },
-    {
-        word: "سَنَوات",
-        def: "years"
-    },
-    {
-        word: "أُستاذٌ",
-        def: "A teacher (male)"
-    },
-    {
-        word: "أساتِذة",
-        def: "Teachers (males)"
-    },
-    {
-        word: "من",
-        def: "from"
-    },
-    {
-        word: "هذا",
-        def: "this"
-    },
-    {
-        word: "بِخَير",
-        def: "well (or good)"
-    },
-    {
-        word: "متى",
-        def: "When ..?"
-    },
-    {
-        word: "كيف",
-        def: "How ..?"
-    },
-    {
-        word: "أسَد",
-        def: "Lion"
-    },
-    {
-        word: "تُفّاحَة",
-        def: "Apple"
-    },
-    {
-        word: "بَيت",
-        def: "House"
-    },
-    {
-        word: "كُرْسي",
-        def: "Chair"
-    },
-    {
-        word: "طبيب",
-        def: "Doctor (male)"
-    },
-    {
-        word: "الجَميع",
-        def: "Everyone"
-    },
-    {
-        word: "هُوَ",
-        def: "He (is) ..."
-    },
-    {
-        word: "هِيَ",
-        def: "She (is) ..."
-    },
-    {
-        word: "إيمان",
-        def: "Faith"
-    },
-    {
-        word: "صَبُر",
-        def: "Patience"
+        word: "قَلِيلٌ",
+        def: "A little"
     }
+    
 ];
 
 const chooseOneWord = function (arr) {
