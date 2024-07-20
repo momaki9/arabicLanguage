@@ -1,41 +1,5 @@
 const words = [
     {
-        word: "أَنَا",
-        def: "I (am)"
-    },
-    {
-        word: "أَنْتَ",
-        def: "You (are)"
-    },
-    {
-        word: "أَيْنَ؟",
-        def: "Where ...?"
-    },
-    {
-        word: "أَمْرِيكَا",
-        def: "America (USA)"
-    },
-    {
-        word: "مِصْر",
-        def: "Eygpt"
-    },
-    {
-        word: "مِنْ",
-        def: "From"
-    },
-    {
-        word: "اسْمٌ",
-        def: "Name"
-    },
-    {
-        word: "أُسْتَاذٌ",
-        def: "Teacher (male)"
-    },
-    {
-        word: "عُمْرٌ",
-        def: "Age"
-    },
-    {
         word: ".أَنَا اسْمِي مُحَمَّدٌ",
         def: "My name is Muhammed."
     },
@@ -45,7 +9,7 @@ const words = [
     },
     {
         word: ".الأُسْتَاذُ مِنْ مِصْرَ",
-        def: "The teacher is from Eygpt."
+        def: "The teacher is from Egypt."
     },
     {
         word: "السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ",

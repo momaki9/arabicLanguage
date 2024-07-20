@@ -174,6 +174,18 @@ const words = [
     {
         word: "مَعَ",
         def: "with"
+    },
+    {
+        word: "أَنْتَ",
+        def: "You (are)"
+    },
+    {
+        word: "اسْمٌ",
+        def: "Name"
+    },
+    {
+        word: "عُمْرٌ",
+        def: "Age"
     }
 ];
 
