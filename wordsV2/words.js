@@ -81,7 +81,7 @@ const words = [
     },
     {
         word: "حالُهُ",
-        def: "his Well-being (male)"
+        def: "his Well-being"
     },
     {
         word: "مَصر",
