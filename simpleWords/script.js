@@ -75,3 +75,7 @@ prevBtn.addEventListener("click", () => {
 meaningBtn.addEventListener("click", () => {
     defElm.textContent = shuffledWords[value].def;
 });
+
+document.getElementById("playBtn").addEventListener("click", ()=>{
+    responsiveVoice.speak(shuffledWords[value].word, 'Arabic Female');
+})

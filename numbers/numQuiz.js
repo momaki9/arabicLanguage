@@ -129,3 +129,7 @@ prevBtn.addEventListener("click", () => {
 meaningBtn.addEventListener("click", () => {
     defElm.textContent = shuffledArr[value].def;
 });
+
+document.getElementById("playBtn").addEventListener("click", ()=>{
+    responsiveVoice.speak(shuffledArr[value].num, 'Arabic Female');
+});

@@ -55,3 +55,7 @@ btnElm.addEventListener("click", () => {
 document.getElementById("showMeaning").addEventListener("click", ()=>{
     meaningElm.textContent = daysObj[value].meaning;
 });
+
+document.getElementById("playBtn").addEventListener("click", ()=>{
+    responsiveVoice.speak(daysObj[value].day, 'Arabic Female');
+});

@@ -134,6 +134,10 @@ document.getElementById("showMeaning").addEventListener("click", () => {
     meaningElm.textContent = nums[value].def;
 });
 
+document.getElementById("playBtn").addEventListener("click", ()=>{
+    responsiveVoice.speak(nums[value].num, 'Arabic Female');
+});
+
 /* older code
 const chooseOneNum = function (arr) {
     const value = Math.floor(Math.random() * arr.length);
