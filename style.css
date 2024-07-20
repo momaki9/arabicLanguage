@@ -55,3 +55,7 @@ button {
     font-size: large;
     font-weight: bold;
 }
+
+#flag-img {
+    width: 6%;
+}
