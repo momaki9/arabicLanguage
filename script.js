@@ -14,3 +14,12 @@ function shuffleArray(array) {
     return array;
 }
 
+console.log("test")
+
+// var voicelist = responsiveVoice.getVoices();
+
+// console.log(voicelist)
+
+document.getElementById("playBtn").addEventListener("click", ()=>{
+    responsiveVoice.speak('الشَمسْ', 'Arabic Female');
+})
