@@ -3,7 +3,7 @@
     text-align: center;
     border: 1px gray solid;
     background-color: aliceblue;
-    height: 75vh;
+    height: 70vh;
 }
 
 p {
@@ -43,7 +43,6 @@ a:hover {
 #meaning, #def {
     color: rgb(36, 82, 110);
     font-size: xx-large;
-    margin: 125px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
