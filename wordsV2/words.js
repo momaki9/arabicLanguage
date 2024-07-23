@@ -37,7 +37,7 @@ const words = [
     },
     {
         word: "مَّسجِد",
-        def: "A place of worship"
+        def: "A place of worship (Mosque)"
     },
     {
         word: "كانَ",
@@ -64,7 +64,7 @@ const words = [
         def: "The believers (male plural)"
     },
     {
-        word: "المُؤمَنين",
+        word: "المُؤمِنات",
         def: "The believers (female plural)"
     },
     {

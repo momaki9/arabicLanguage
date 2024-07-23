@@ -12,12 +12,12 @@ const words = [
         def: "How are you? (speaking to a female)"
     },
     {
-        word: "آني زَين. الحَمْدُ لله.",
-        def: "I am well. Praise God. (Male speaking)"
+        word: "آني زَين. الحَمْدُ لله",
+        def: "I am well. Praise God (Male speaking)"
     },
     {
         word: "آني زَينه. الحَمْدُ لله.",
-        def: "I am well. Praise God. (Feale speaking)"
+        def: "I am well. Praise God. (Female speaking)"
     },
     {
         word: "شْلون الأهِل؟",

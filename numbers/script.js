@@ -1,5 +1,9 @@
 const nums = [
     {
+        num: "(٠)  صِفر",
+        def: "Zero (0)"
+    },
+    {
         num: "واحد    (١)",
         def: "One (1)"
     },
