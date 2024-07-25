@@ -32,10 +32,6 @@ const words = [
         def: "I (am)"
     },
     {
-        word: "انت",
-        def: "You"
-    },
-    {
         word: "اين",
         def: "Where ..?"
     },
