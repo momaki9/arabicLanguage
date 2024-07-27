@@ -44,22 +44,6 @@ const words = [
         def: "Excuse me"
     },
     {
-        word: "جوعان",
-        def: "Hungry"
-    },
-    {
-        word: "تَعبان",
-        def: "Tired"
-    },
-    {
-        word: "فَرحان",
-        def: "Happy"
-    },
-    {
-        word: "عَطشان",
-        def: "Thirsty"
-    },
-    {
         word: "شَكو ماكو اليوم؟",
         def: "What's new today?"
     },
@@ -70,5 +54,112 @@ const words = [
     {
         word: "الله بِالخير",
         def: "God bless (greeting)"
+    },
+    {
+        word: "شْلونْ صِحتَك؟",
+        def: "How is your health = How are you? (for male)"
+    },
+    {
+        word: "شْلونْ صِحتِچ؟",
+        def: "How is your health = How are you? (for female)"
+    },
+    {
+        word: "شْوَيًّه",
+        def: "A little"
+    },
+    {
+        word: "هوايَه",
+        def: "A lot"
+    },
+    {
+        word: "إنتَ تِحچي عَرَبي؟",
+        def: "Do you speak Arabic? (male)"
+    },
+    {
+        word: "شِسْمَك؟",
+        def: "What's your name? (male)"
+    },
+    {
+        word: "شِسْمِچ؟",
+        def: "What's your name? (male)"
+    },
+    {
+        word: "آني هَميَنه",
+        def: "Me too"
+    },
+    {
+        word: "مِن وين إنتَ؟",
+        def: "Where are you from?"
+    },
+    {
+        word: "وين سَاكنْ؟",
+        def: "Where do you live? (version 1)"
+    },
+    {
+        word: "وين عايش؟",
+        def: "Where do you live? (version 1)"
+    },
+    {
+        word: "ما أدْري",
+        def: "I don't know"
+    },
+    {
+        word: "جاهِز ألأكِل؟",
+        def: "Is food ready?"
+    },
+    {
+        word: "ألأكِل جاهِز",
+        def: "Food is ready"
+    },
+    {
+        word: "ألغَدا جاهِز",
+        def: "Lunch is ready"
+    },
+    {
+        word: "ألرِيوڭ جاهِز",
+        def: "Breakfast is ready"
+    },
+    {
+        word: "ألعَشا جاهِز",
+        def: "Dinner is ready"
+    },
+    {
+        word: "شوَكِت راح ناكُل؟",
+        def: "When will we eat?"
+    },
+    {
+        word: "نْشوفَك بَعدَين",
+        def: "See you later"
+    },
+    {
+        word: "نْشوفَك بَاچِر",
+        def: "See you tomorrow"
+    },
+    {
+        word: "دير بالَك عَلى نَفسَك",
+        def: "Take care of yourself"
+    },
+    {
+        word: "آني داشاقه وياك",
+        def: "I am joking with you"
+    },
+    {
+        word: "إتْريد تِلْعَب طوبه؟",
+        def: "Do you want to play soccer?"
+    },
+    {
+        word: "إشْـكَد عٌمْرِﭺ؟",
+        def: "How old are you? (speaking to a female)"
+    },
+    {
+        word: "إشْـكَد عٌمْرَك؟",
+        def: "How old are you? (speaking to a male)"
     }
-]       
+] 
+
+/*
+    {
+        word: "",
+        def: ""
+    }
+*/
