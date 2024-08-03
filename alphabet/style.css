@@ -56,3 +56,48 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
 }
+
+.blue {
+    color: #2421cf;
+}
+
+.yellow {
+    color: #e4e143;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.orange {
+    color: orange;
+}
+
+.pink {
+    color: pink;
+}
+
+.white {
+    color: rgb(255, 255, 255);
+}
+
+.black {
+    color: black;
+}
+
+.brown {
+    color: brown;
+}
+
+.card-elm-c {
+    font-size: 90px;
+    text-align: center;
+    border: 2px rgb(14, 13, 13) solid;
+    border-radius: 20px;
+    background-color: rgba(117, 158, 156, 0.763);
+    height: 70vh;
+}
