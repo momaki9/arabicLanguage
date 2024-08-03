@@ -81,7 +81,7 @@ const words = [
     },
     {
         word: "شِسْمِچ؟",
-        def: "What's your name? (male)"
+        def: "What's your name? (female)"
     },
     {
         word: "آني هَميَنه",
@@ -97,7 +97,7 @@ const words = [
     },
     {
         word: "وين عايش؟",
-        def: "Where do you live? (version 1)"
+        def: "Where do you live? (version 2)"
     },
     {
         word: "ما أدْري",

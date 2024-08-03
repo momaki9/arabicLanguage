@@ -90,7 +90,7 @@ numberElm.textContent = number;
 const btnElm = document.getElementById("btn");
 const backBtn = document.getElementById("backBtn");
 
-const meaningElm = document.getElementById("meaning");
+const meaningElm = document.getElementById("def");
 let value = Number(btnElm.getAttribute("data"));
 
 if ((value > 0 ) && (value <= nums.length-1)) {
