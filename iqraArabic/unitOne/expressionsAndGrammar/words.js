@@ -74,6 +74,14 @@ const words = [
     {
         word: "إلى أللِقاء",
         def: "Until Next Time!"
+    },
+    {
+        word: "أُحِبُّكِ",
+        def: "I love you! (speaking to female)"
+    },
+    {
+        word: "أُحِبُّكَ",
+        def: "I love you! (speaking to male)"
     }
 ];
 
