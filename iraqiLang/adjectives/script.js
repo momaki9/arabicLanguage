@@ -5,6 +5,8 @@ const prevBtn = document.getElementById("btn0");
 const meaningBtn = document.getElementById("btn1");
 const nextBtn = document.getElementById("btn2");
 
+// var testSound = new Audio("./audio/fast_f.m4a");
+
 const shuffledArr = shuffleArray(words);
 
 let selectedElm = shuffledArr[0];
@@ -54,5 +56,7 @@ meaningBtn.addEventListener("click", () => {
 });
 
 document.getElementById("playBtn").addEventListener("click", ()=>{
-    responsiveVoice.speak(shuffledArr[value].word, 'Arabic Male');
+    // responsiveVoice.speak(shuffledArr[value].word, 'Arabic Male');
+    var testSound = new Audio(shuffledArr[value].audio)
+    testSound.play()
 });

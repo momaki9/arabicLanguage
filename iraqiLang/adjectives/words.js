@@ -1,59 +1,73 @@
 const words = [
     {
         word: "جوعان",
-        def: "Hungry (m)"
+        def: "Hungry (m)",
+        audio: "./audio/hungry_m.m4a"
     },
     {
         word: "تَعبان",
-        def: "Tired (m)"
+        def: "Tired (m)",
+        audio: "./audio/tired_m.m4a"
     },
     {
         word: "فَرحان",
-        def: "Happy (m)"
+        def: "Happy (m)",
+        audio: "./audio/happy_m.m4a"
     },
     {
         word: "عَطشان",
-        def: "Thirsty (m)"
+        def: "Thirsty (m)",
+        audio: "./audio/thirsty_m.m4a"
     },
     {
         word: "جوعانه",
-        def: "Hungry (f)"
+        def: "Hungry (f)",
+        audio: "./audio/hungry_f.m4a"
     },
     {
         word: "تَعبانه",
-        def: "Tired (f)"
+        def: "Tired (f)",
+        audio: "./audio/tired_f.m4a"
     },
     {
         word: "فَرحانه",
-        def: "Happy (f)"
+        def: "Happy (f)",
+        audio: "./audio/happy_f.m4a"
     },
     {
         word: "عَطشانه",
-        def: "Thirsty (f)"
+        def: "Thirsty (f)",
+        audio: "./audio/thirsty_f.m4a"
     },
     {
         word: "نَعسان",
-        def: "Sleepy (m)"
+        def: "Sleepy (m)",
+        audio: "./audio/sleepy_m.m4a"
     },
     {
         word: "نَعسانه",
-        def: "Sleepy (f)"
+        def: "Sleepy (f)",
+        audio: "./audio/sleepy_f.m4a"
     },
     {
         word: "سَريع",
-        def: "Fast (m)"
+        def: "Fast (m)",
+        audio: "./audio/fast_m.m4a"
     },
     {
         word: "سَريعه",
-        def: "Fast (f)"
+        def: "Fast (f)",
+        audio: "./audio/fast_f.m4a"
     },
     {
         word: "بَطيء",
-        def: "Slow (m)"
+        def: "Slow (m)",
+        audio: "./audio/slow_m.m4a"
     },
     {
         word: "بَطيئه",
-        def: "Slow (f)"
+        def: "Slow (f)",
+        audio: "./audio/slow_f.m4a"
     }
 ] 
 
